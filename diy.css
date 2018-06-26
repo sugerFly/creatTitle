@@ -1,0 +1,140 @@
+@charset "utf-8";
+body {
+	font-family:微软雅黑;
+}
+.away {
+	margin:0 0 20px 0;
+}
+.border {
+	padding:2% 5%;
+	border:1px dotted #ccc;
+	border-bottom:none;
+}
+.col-lg-2dot4 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+@media (min-width: 1200px) {
+	.col-lg-2dot4 {
+		float: left;
+	}
+	.col-lg-2dot4 {
+		width: 20%;
+	}
+	.col-lg-pull-2dot4 {
+		right: 20%;
+	}
+	.col-lg-push-2dot4 {
+		left: 20%;
+	}
+	.col-lg-offset-2dot4 {
+		margin-left: 20%;
+	}
+}
+.thumbnail strong {
+	font-weight:100;
+}
+.thumbnail ul {
+	height:400px;
+	overflow:auto
+}
+.thum {
+	padding:0px;
+}
+.thum ul {
+	list-style:none;
+	padding:0 5px;
+	margin-top:0px;
+	padding-top:5px;
+}
+.thum ul li {
+	height:30px;
+	line-height:30px;
+	padding-left:8px;
+}
+.thum ul li.one {
+	padding-left:0px;
+}
+.mt20 {
+	margin-top:20px;
+}
+blockquote {
+	padding: 10px;
+	margin: 0 0 10px;
+	margin-top:10px;
+	margin-bottom:0px;
+	border-left: 0px solid #eeeeee;
+	background-color: whitesmoke;
+	color:#999;
+	font-size:16px;
+}
+.checkbox, .radio {
+	position: relative;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height:normal !important;
+}
+.bg-info {
+	overflow:hidden;
+	padding:5px 6px 8px 13px;
+}
+.text-gray, .text-danger {
+	color:#aaa;
+	cursor:pointer;
+}
+.fa-plus-square {
+	cursor:pointer;
+}
+@media (max-width: 992px) {
+	.mobilemt {
+		margin-top:10px
+	}
+}
+
+.bg-info .pull-right {
+	margin-top:5px;
+	margin-right:7px;
+}
+
+li>label {
+	overflow: hidden;
+	max-width: 120px;
+	height: 22px;
+}
+.aa .fa-puzzle-piece {
+	display:none !important;
+}
+.dd .fa-puzzle-piece {
+	display:none !important;
+}
+.ee .fa-puzzle-piece {
+	display:none !important;
+}
+.checkbox label, .radio label {
+	line-height:24px;
+}
+.pull-left {
+	margin-top: 4px;
+}
+.thumbnail {
+	margin-bottom: 10px;
+}
+.col-lg-2dot4{ margin-top:10px;}
+input[type=checkbox], input[type=radio] {
+	margin: 6px 0 0;}
+
+.diy_ico:before {
+	content: "\f12e";
+}
+.diy_ico1:before {
+	content: "\f14b";
+}
+.diy_ico2:before {
+	content: "\f1f8";
+}
+.diy_ico3:before {
+	content: "\f0fe";
+}
